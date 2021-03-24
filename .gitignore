@@ -1,0 +1,4 @@
+key.properties
+build/
+app/src/main/assets/*
+.DS_Store

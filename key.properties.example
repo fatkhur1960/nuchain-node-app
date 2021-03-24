@@ -1,0 +1,4 @@
+storePassword=storePass
+keyPassword=keyPass
+keyAlias=keyAlias
+storeFile=keystore.jks

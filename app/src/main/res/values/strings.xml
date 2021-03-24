@@ -1,0 +1,20 @@
+<resources>
+    <string name="shared_user_label">Nuchain user</string>
+    <string name="run_command_permission_label">Run commands in Nuchain environment</string>
+    <string name="run_command_permission_description">execute arbitrary commands within Nuchain environment</string>
+    <string name="popupTitle">Create New Node</string>
+    <string name="node_name">Node Name</string>
+    <string name="btn_label">Create</string>
+    <string name="action_label">Start/Stop Node</string>
+    <string name="fetch_label">Get Session Key</string>
+    <string name="clear_label">Clear Logs</string>
+    <string name="autostart_label">Start on Boot</string>
+    <string name="session_key">Session Key</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_copy">Copy</string>
+    <string name="btn_exit">Exit</string>
+    <string name="about_label">About</string>
+    <string name="author">by fatkhur1960</string>
+    <string name="btn_github">Github</string>
+    <string name="github_url">https://github.com/fatkhur1960</string>
+</resources>

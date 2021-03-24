@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nodeAction"
+        android:icon="@drawable/ic_play"
+        android:title="@string/action_label"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/fetchHexCode"
+        android:title="@string/fetch_label"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/clearLogs"
+        android:title="@string/clear_label"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/autoStart"
+        android:title="@string/autostart_label"
+        app:showAsAction="never"
+        android:checkable="true"
+        app:actionViewClass="android.widget.CheckBox" />
+
+    <item
+        android:id="@+id/about"
+        android:title="@string/about_label"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/exitApp"
+        android:title="@string/btn_exit"
+        app:showAsAction="never" />
+
+</menu>
