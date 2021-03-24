@@ -1,9 +1,0 @@
-rm -f /Users/master/Workdir/NuchainNode/app/build/intermediates/ndkBuild/devDebug/lib/x86_64/*
-rm -f /Users/master/Workdir/NuchainNode/app/build/intermediates/ndkBuild/devDebug/lib/x86_64/gdbserver
-rm -f /Users/master/Workdir/NuchainNode/app/build/intermediates/ndkBuild/devDebug/lib/x86_64/gdb.setup
-mkdir -p /Users/master/Workdir/NuchainNode/app/build/intermediates/ndkBuild/devDebug/lib/x86_64
-echo [x86_64] "Gdbserver      ": "[x86_64-linux-android] /Users/master/Workdir/NuchainNode/app/build/intermediates/ndkBuild/devDebug/lib/x86_64/gdbserver"
-install -p /Users/master/Android/sdk/ndk/22.0.7026061/prebuilt/android-x86_64/gdbserver/gdbserver /Users/master/Workdir/NuchainNode/app/build/intermediates/ndkBuild/devDebug/lib/x86_64/gdbserver
-echo [x86_64] "Gdbsetup       ": "/Users/master/Workdir/NuchainNode/app/build/intermediates/ndkBuild/devDebug/lib/x86_64/gdb.setup"
-echo "set solib-search-path /Users/master/Workdir/NuchainNode/app/build/intermediates/ndkBuild/devDebug/obj/local/x86_64" > /Users/master/Workdir/NuchainNode/app/build/intermediates/ndkBuild/devDebug/lib/x86_64/gdb.setup
-echo "directory /Users/master/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot" >> /Users/master/Workdir/NuchainNode/app/build/intermediates/ndkBuild/devDebug/lib/x86_64/gdb.setup
